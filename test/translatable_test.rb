@@ -10,6 +10,7 @@ class Translatable::Test < ActiveSupport::TestCase
   test 'accessor should return the translated field' do
     c = Content.new header: 'hi', body: { en: 'hello', ca: 'hola' }
 
+    I18n.locale = :ca
     assert_equal c.body, 'hola'
     I18n.locale = :en
     assert_equal c.body, 'hello'

@@ -7,11 +7,11 @@ require 'translatable/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = 'translatable'
+  s.name        = 'translatable-rails'
   s.version     = Translatable::VERSION
   s.authors     = ['Toni Oriol']
   s.email       = ['tonioriol@gmail.com']
-  s.homepage    = 'https://translatable-rails.tonioriol.com'
+  s.homepage    = 'https://github.com/tonioriol/translatable-rails'
   s.summary     = 'Makes rails models translatables.'
   s.description = 'Add translatable capabilities to rails models through json based database fields.'
   s.license     = 'MIT'
